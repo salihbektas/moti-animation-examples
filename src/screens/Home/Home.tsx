@@ -1,3 +1,4 @@
+import { MotiView } from 'moti';
 import React from 'react';
 import {
   View,
@@ -13,6 +14,7 @@ function Home({ navigation }: HomeProps) {
   return (
     <View style={ styles.main }>
       <Text>Home Page</Text>
+      <Button title='fade in' onPress={() => navigation.navigate('FadeIn')} />
       <Button title='base screen' onPress={() => navigation.navigate('BaseScreen')} />
     </View>
   )
