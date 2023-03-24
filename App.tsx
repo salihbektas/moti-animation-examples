@@ -14,6 +14,7 @@ import BaseScreen from './src/screens/BaseScreen/BaseScreen';
 import FadeIn from './src/screens/FadeIn/FadeIn';
 import Home from './src/screens/Home/Home';
 import Move from './src/screens/Move/Move';
+import TwoD from './src/screens/TwoD/TwoD';
 import { RootStackParamList } from './src/types';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -27,6 +28,7 @@ function App() {
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="FadeIn" component={FadeIn} />
         <Stack.Screen name="Move" component={Move} />
+        <Stack.Screen name="TwoD" component={TwoD} options={{ title: '2D Movement' }}/>
         <Stack.Screen name="BaseScreen" component={BaseScreen} />
       </Stack.Navigator>
     </NavigationContainer>
