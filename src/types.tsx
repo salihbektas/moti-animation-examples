@@ -4,8 +4,10 @@ export type RootStackParamList = {
   Home: undefined;
   BaseScreen: undefined;
   FadeIn: undefined;
+  Move: undefined;
 };
 
 export type HomeProps = NativeStackScreenProps<RootStackParamList, 'Home'>;
 export type BaseScreenProps = NativeStackScreenProps<RootStackParamList, 'BaseScreen'>;
 export type FadeInProps = NativeStackScreenProps<RootStackParamList, 'FadeIn'>;
+export type MoveProps = NativeStackScreenProps<RootStackParamList, 'Move'>;

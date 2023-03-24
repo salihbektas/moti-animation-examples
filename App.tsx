@@ -13,6 +13,7 @@ import {
 import BaseScreen from './src/screens/BaseScreen/BaseScreen';
 import FadeIn from './src/screens/FadeIn/FadeIn';
 import Home from './src/screens/Home/Home';
+import Move from './src/screens/Move/Move';
 import { RootStackParamList } from './src/types';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -25,6 +26,7 @@ function App() {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="FadeIn" component={FadeIn} />
+        <Stack.Screen name="Move" component={Move} />
         <Stack.Screen name="BaseScreen" component={BaseScreen} />
       </Stack.Navigator>
     </NavigationContainer>
