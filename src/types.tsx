@@ -6,6 +6,7 @@ export type RootStackParamList = {
   FadeIn: undefined;
   Move: undefined;
   TwoD: undefined;
+  ContinuousTwoD: undefined;
 };
 
 export type HomeProps = NativeStackScreenProps<RootStackParamList, 'Home'>;
@@ -13,3 +14,4 @@ export type BaseScreenProps = NativeStackScreenProps<RootStackParamList, 'BaseSc
 export type FadeInProps = NativeStackScreenProps<RootStackParamList, 'FadeIn'>;
 export type MoveProps = NativeStackScreenProps<RootStackParamList, 'Move'>;
 export type TwoDProps = NativeStackScreenProps<RootStackParamList, 'TwoD'>;
+export type ContinuousTwoDProps = NativeStackScreenProps<RootStackParamList, 'ContinuousTwoD'>;

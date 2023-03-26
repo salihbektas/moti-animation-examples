@@ -17,6 +17,7 @@ function Home({ navigation }: HomeProps) {
       <Button title='fade in' onPress={() => navigation.navigate('FadeIn')} />
       <Button title='Move' onPress={() => navigation.navigate('Move')} />
       <Button title='2D movement' onPress={() => navigation.navigate('TwoD')} />
+      <Button title='Continuous 2D movement' onPress={() => navigation.navigate('ContinuousTwoD')} />
       <Button title='base screen' onPress={() => navigation.navigate('BaseScreen')} />
     </View>
   )
